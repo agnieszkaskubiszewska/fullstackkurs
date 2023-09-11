@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Document</title>
+
+<style>
+
+body {
+
+background: black;
+
+color: white;
+
+}
+
+h3#header[class *= "title"]{
+    background: red;
+}
+h3#header[class ^= "bar"]{
+    text-decoration: underline;
+}
+article p.text[data-intro = 'information']{
+    border: 2px dotted green
+}
+</style>
+
+</head>
+
+<body>
+
+<article>
+
+<header>
+
+<h3 id="header" class="bar title">Tytuł artykułu</h3>
+
+<p>Autor: <span class="author">Ola</span></p>
+
+</header>
+
+<p class="text" data-intro="information">Paragraf #1</p>
+
+<p class="text foo">Paragraf #2</p>
+
+<p class="text" data-ending>Paragraf #2</p>
+
+</article>
+
+</body>
+
+</html>
+
+ 
+

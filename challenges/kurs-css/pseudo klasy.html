@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: black;
+        }
+        a {
+            font-weight: bold; color: aqua;
+        }
+        a:hover {
+            background: red;
+        }
+        a:active {
+            color:orange
+        }
+        a:visited {
+            color: grey;
+        }
+        label {
+            color: grey;
+        }
+        input:checked {
+            outline: 2px solid red;
+        }
+        input:disabled {
+            outline: 2px solid blue;
+        }
+        input:focus {
+            outline: 2px solid orange
+        }
+    </style>
+</head>
+
+<body>
+    
+    <ul>
+        <li><a href="https://google.com">Google</a></li>
+        <li><a href="https://google.com">YT</a></li>
+        <li><a href="https://google.com">Insta</a></li>
+        <li><a href="https://google.com">FB</a></li>
+    </ul>
+    <form>
+        <input type="checkbox" name="city" id="wwa">
+        <label for="wwa">Warszawa</label>
+        <input type="checkbox" disabled ="city" id="krk">
+        <label for="krk">Krakow</label>
+        <input type="checkbox" name="city" id="rz">
+        <label for="rz">Rzeszow</label>
+        <input type="checkbox" name="city" id="wro">
+        <label for="wro">Wroclaw</label>
+
+    </form>
+</body>
+</html>

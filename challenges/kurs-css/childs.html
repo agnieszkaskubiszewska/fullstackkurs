@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:first-child {
+            text-decoration: underline;
+        }
+        li:last-child {
+            color: blue
+        }
+            /*co trzeci element */
+        li:nth-child(3n) {
+            color: red;
+        }
+        li:nth-child(5) {
+            color: orange;
+        }
+        li:nth-child(even) {
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </ul>
+</body>
+</html>
