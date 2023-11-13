@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-size: 3rem;
+            background-color: silver;
+            color: black
+        }
+        #breakpoint-info::after{
+            content: "breakpoint do 576px";
+        }
+
+        @media (min-width: 576px) {
+            body {
+                background-color: blue;
+            }
+            #breakpoint-info::after{
+            content: "breakpoint rowne lub wiecej 576px - telefony";
+        }
+        }
+        @media (min-width: 768px) {
+            body {
+                background-color: yellow;
+            }
+            #breakpoint-info::after{
+            content: "breakpoint rowne lub wiecej 768px - telefony";
+        }
+        }
+    </style>
+
+    <span id="breakpoint-info"></span>
+</body>
+</html>
